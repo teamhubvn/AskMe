@@ -1,0 +1,162 @@
+    
+      body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #24313a;
+        color: #cecece;
+        font-weight: normal;
+        background-color: #24292e;
+        background-image: url(http://pewcry.ga/star-bg.svg),linear-gradient(#191c20, #24292e 15%);
+        background-repeat: repeat-x;
+        background-position: center 0, 0 0, 0 0;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: repeat-x;
+        background-position: center 0, 0 0, 0 0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        min-width: 235px;
+      }
+     .color-1{
+     	color: #10c469;
+     }
+     .color-2{
+     	color:#43a7f5;
+     }
+    #main h3{
+       font-weight: 300;
+       margin: 0px 0px 10px 0px;
+       font-family: 'Rancho', cursive;
+       font-size: 46px;
+    }
+	#main{
+		width: 400px;
+		margin: auto;
+		text-align: center;
+		margin-top: 100px;
+		background: #293138;
+		padding: 20px;
+		border-radius: 5px;
+    position:relative;
+	}
+  *:focus{
+    outline:none;
+  }
+  input.user-icon {
+    font-family: 'FontAwesome','Roboto';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+  input.pass-icon {
+    font-family: 'FontAwesome','Roboto';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+  input{
+    color:#9c9c9c;
+  }
+  .fa-lock{
+    font-size:12px;
+    position:absolute;
+    margin:12px 0px 0px 8px;
+    color:#9c9c9c;
+  }
+  #textControl{
+    width:66%;
+    padding:0.8em 0em;
+    background:#23282f;
+    border:none;
+    margin:auto;
+    border-radius:5px;
+    padding-left:28px;
+    background-image:url(https://png.icons8.com/windows/80/ffffff/gender-neutral-user.png);
+    background-repeat:no-repeat;
+    background-size:16px;
+    background-position:9px;
+  }
+  #passControl{
+    width:66%;
+    padding:0.8em 0em;
+    background:#23282f;
+    border:none;
+    margin:auto;
+    border-radius:5px;
+    padding-left:28px;
+    background-image:url(https://png.icons8.com/ios/80/ffffff/lock.png);
+    background-repeat:no-repeat;
+    background-size:15px;
+    background-position:9px;
+    margin-top:5px;
+  }
+	#main p{
+		margin :8px 0px 10px 0px;
+		font-size: 13px;
+		color: #9c9c9c;
+	}
+	#img-circle{
+		border-radius: 50%;
+	}
+  #regist{
+    border:none;
+    padding:0.8em 0em;
+    display:inline-block;
+    width:36%;
+		margin-top: 15px;
+      border-radius: 5px;
+        background: #23282f;
+        color: #fff;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+  }
+  a{
+    text-decoration:none;
+    color:#9c9c9c;
+  }
+  #regist{
+    color:#9c9c9c;
+  }
+  #regist:hover{
+    background: #1c2128;
+}
+	button{
+		border:none;
+    padding:0.8em 0em;
+    display:inline-block;
+    width:36%;
+		margin-top: 15px;
+      border-radius: 5px;
+        background: #23282f;
+     color:#9c9c9c;
+        font-size: 14px;
+        float:right;
+        font-family: 'Open Sans', sans-serif;
+        position:relative;
+        right:13%;
+	}
+  img{
+    vertical-align:middle;
+    margin-bottom:15px;
+  }
+	button:hover,active,focus{
+        background: #1c2128;
+        cursor:pointer;
+	}
+    .fa-facebook-official{
+    	margin-right: 2px;
+    	font-size: 16px;
+    }
+     @media (max-width: 421px){
+     	#main{
+     		width: 100%;
+     	}
+     	button{
+     		font-size: 12px;
+     		padding: 0.9em 1em;
+     	}
+     	body{
+     		padding: 8px;
+     	}
+     }
+   
